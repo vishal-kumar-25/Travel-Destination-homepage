@@ -1,0 +1,18 @@
+.selects .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+.selects h2 {
+    margin: 35px 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 740px) {
+    .selects .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+
